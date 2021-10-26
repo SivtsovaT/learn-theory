@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import {FormsModule} from "@angular/forms";
 import { AuthorisationComponent } from './authorisation/authorisation.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
-    AuthorisationComponent
+    AuthorisationComponent,
+    ShoppingListComponent
 
   ],
   imports: [

@@ -1,0 +1,34 @@
+<div >
+  <h2>Animals list</h2>
+</div>
+
+<div class="animals">
+  <div class="adding">
+    <div class="animal-name">
+      <input [(ngModel)]="name" placeholder="Animal"/>
+    </div>
+
+    <div class="animal-count">
+      <input [(ngModel)]="count" placeholder="Count"/>
+    </div>
+
+    <div class="enter-animal">
+      <button (click)="addAnimal(name, count)">Add animal</button>
+    </div>
+  </div>
+  <div class="post">
+    <div *ngFor="let animal of animals">
+      <div class="content">
+        <div>{{animal.name}}</div>
+        <div>{{animal.count}}</div>
+      </div>
+
+    </div>
+  </div>
+
+
+ </div>
+
+
+
+

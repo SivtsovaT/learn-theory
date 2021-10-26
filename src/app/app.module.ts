@@ -6,6 +6,7 @@ import { HelloComponent } from './hello/hello.component';
 import {FormsModule} from "@angular/forms";
 import { AuthorisationComponent } from './authorisation/authorisation.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { AnimalsComponent } from './animals/animals.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
     AppComponent,
     HelloComponent,
     AuthorisationComponent,
-    ShoppingListComponent
+    ShoppingListComponent,
+    AnimalsComponent
 
   ],
   imports: [

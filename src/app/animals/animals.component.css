@@ -1,0 +1,29 @@
+.animals {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 500px;
+  min-height: 200px;
+  border: 1px black solid;
+  background-color: #cbe3f3;
+
+}
+.adding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+
+}

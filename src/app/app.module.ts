@@ -7,6 +7,7 @@ import {FormsModule} from "@angular/forms";
 import { AuthorisationComponent } from './authorisation/authorisation.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { AnimalsComponent } from './animals/animals.component';
+import { ClickCountComponent } from './click-count/click-count.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AnimalsComponent } from './animals/animals.component';
     HelloComponent,
     AuthorisationComponent,
     ShoppingListComponent,
-    AnimalsComponent
+    AnimalsComponent,
+    ClickCountComponent
 
   ],
   imports: [

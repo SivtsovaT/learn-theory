@@ -9,6 +9,10 @@ export class ClickCountComponent implements OnInit {
   count: number = 0;
   increase(): void {
     this.count++;
+  };
+  increaseCount($event: any): void {
+    this.count++;
+    console.log($event);
   }
 
   constructor() { }

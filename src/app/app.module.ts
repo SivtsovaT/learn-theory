@@ -8,6 +8,8 @@ import { AuthorisationComponent } from './authorisation/authorisation.component'
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { AnimalsComponent } from './animals/animals.component';
 import { ClickCountComponent } from './click-count/click-count.component';
+import { HelloTomComponent } from './hello-tom/hello-tom.component';
+import { RedComponent } from './red/red.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { ClickCountComponent } from './click-count/click-count.component';
     AuthorisationComponent,
     ShoppingListComponent,
     AnimalsComponent,
-    ClickCountComponent
+    ClickCountComponent,
+    HelloTomComponent,
+    RedComponent
 
   ],
   imports: [

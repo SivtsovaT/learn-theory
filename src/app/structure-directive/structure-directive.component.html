@@ -1,0 +1,30 @@
+<p *ngIf="condition">Hello world</p>
+<p *ngIf="!condition">Good-bye world</p>
+<button (click)="toggle()">Toggle</button>
+
+<br>
+<br>
+
+<p *ngIf="stay; else unset">Cat</p>
+<ng-template #unset>
+  <p>Dog</p>
+</ng-template>
+<button (click)="changePet()">press me</button>
+
+<br>
+<br>
+
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
+<br>
+<br>
+
+<div [ngSwitch]="count">
+  <ng-template ngSwitchCase="1">{{count * 10}}</ng-template>
+  <ng-template ngSwitchCase="2">{{count * 100}}</ng-template>
+  <ng-template ngSwitchDefault="3">{{count * 1000}}</ng-template>
+</div>
+
+
+

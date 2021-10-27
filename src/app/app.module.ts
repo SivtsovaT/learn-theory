@@ -11,6 +11,7 @@ import { ClickCountComponent } from './click-count/click-count.component';
 import { HelloTomComponent } from './hello-tom/hello-tom.component';
 import { RedComponent } from './red/red.component';
 import { DirectiveComponent } from './directive/directive.component';
+import { StructureDirectiveComponent } from './structure-directive/structure-directive.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DirectiveComponent } from './directive/directive.component';
     ClickCountComponent,
     HelloTomComponent,
     RedComponent,
-    DirectiveComponent
+    DirectiveComponent,
+    StructureDirectiveComponent
 
   ],
   imports: [

@@ -10,6 +10,7 @@ import { AnimalsComponent } from './animals/animals.component';
 import { ClickCountComponent } from './click-count/click-count.component';
 import { HelloTomComponent } from './hello-tom/hello-tom.component';
 import { RedComponent } from './red/red.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { RedComponent } from './red/red.component';
     AnimalsComponent,
     ClickCountComponent,
     HelloTomComponent,
-    RedComponent
+    RedComponent,
+    DirectiveComponent
 
   ],
   imports: [

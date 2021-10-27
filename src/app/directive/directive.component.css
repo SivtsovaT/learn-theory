@@ -1,0 +1,11 @@
+.verdanaFont {
+  font-size: 13px;
+  font-family: Verdana;
+}
+.segoePrintFont {
+  font-size: 20px;
+
+}
+.invisible {
+  display: none;
+}

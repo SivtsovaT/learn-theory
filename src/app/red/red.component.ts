@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class RedComponent implements OnInit {
   isRed = false;
   isGreen = false;
+
   changeColor() {
     this.isGreen = !this.isGreen;
   }

@@ -14,6 +14,7 @@ import { DirectiveComponent } from './directive/directive.component';
 import { StructureDirectiveComponent } from './structure-directive/structure-directive.component';
 import { FormsComponent} from "./forms/forms.component";
 import { SecondFormComponent } from './second-form/second-form.component';
+import { ValidationComponent } from './validation/validation.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { SecondFormComponent } from './second-form/second-form.component';
     DirectiveComponent,
     StructureDirectiveComponent,
     FormsComponent,
-    SecondFormComponent
+    SecondFormComponent,
+    ValidationComponent
 
   ],
   imports: [

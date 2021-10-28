@@ -1,7 +1,9 @@
 <div>
   <div>
     <label>Название модели</label>
-    <input name="title" [(ngModel)]="phone.title" #phoneTitle="ngModel">
+    <input class="form-control" name="title"
+           [(ngModel)]="phone.title" #phoneTitle="ngModel"
+           (change)="onTitleChange()" />
   </div>
 
   <div>

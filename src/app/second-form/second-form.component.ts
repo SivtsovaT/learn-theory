@@ -23,6 +23,11 @@ export class SecondFormComponent implements OnInit {
     console.log(price);
     console.log(comp);
   }
+  onTitleChange(){
+
+    if(this.phone.title=="нет")
+      this.phone.title = "неизвестно";
+  }
 
   constructor() { }
 

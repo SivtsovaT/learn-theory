@@ -12,6 +12,8 @@ import { HelloTomComponent } from './hello-tom/hello-tom.component';
 import { RedComponent } from './red/red.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { StructureDirectiveComponent } from './structure-directive/structure-directive.component';
+import { FormsComponent} from "./forms/forms.component";
+import { SecondFormComponent } from './second-form/second-form.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { StructureDirectiveComponent } from './structure-directive/structure-dir
     HelloTomComponent,
     RedComponent,
     DirectiveComponent,
-    StructureDirectiveComponent
+    StructureDirectiveComponent,
+    FormsComponent,
+    SecondFormComponent
 
   ],
   imports: [

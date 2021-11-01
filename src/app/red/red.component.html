@@ -6,4 +6,10 @@
 <div [class.green]="isGreen"></div>
 <input type="button" [(ngModel)]="isGreen"(click)="changeColor()">
 
+<hr>
+
+<div [class.mint]="isActive" (click)="changeMe()">Male</div>
+<div [class.mint]="!isActive" (click)="changeMe()">Female</div>
+
+
 

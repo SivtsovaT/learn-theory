@@ -1,7 +1,8 @@
 div {
   width:50px;
   height:50px;
-  border:1px solid #ccc}
+  border:1px solid #ccc
+}
 
 .isredbox {
   background-color:red;
@@ -9,5 +10,11 @@ div {
 
 .green {
   background-color: green;
+}
+.mint {
+  width:50px;
+  height:50px;
+  border:1px solid #ccc;
+  background-color: midnightblue;
 }
 

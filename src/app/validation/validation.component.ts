@@ -3,7 +3,8 @@ import { Component} from '@angular/core';
 export class User{
   constructor(public name: string,
               public email: string,
-              public phone: string){}
+              public phone: string,
+              public password: string){}
 }
 
 @Component({
@@ -16,7 +17,7 @@ export class User{
 })
 export class ValidationComponent {
 
-  user: User = new User("", "", "");
+  user: User = new User("", "", "","");
   addUser(){
     console.log(this.user);
   }

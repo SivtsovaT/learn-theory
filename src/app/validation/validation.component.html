@@ -23,7 +23,16 @@
     </div>
   </div>
   <div class="form-group">
-    <button [disabled]="name.invalid || email.invalid || phone.invalid"
+    <label>password</label>
+    <input type="password" name="password"[(ngModel)]="user.password" #password='ngModel' maxlength="10" minlength="5" required/>
+    <div [hidden]="password.valid || password.untouched" class="alert alert-danger">
+      пароль должен включать от 5 до 10 символов
+    </div>
+  </div>
+
+  <div class="form-group">
+    <button [disabled]="name.invalid || email.invalid || phone.invalid || password.invalid"
             class="btn btn-default" (click)="addUser()">Добавить</button>
   </div>
+
 </div>

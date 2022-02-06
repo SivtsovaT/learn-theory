@@ -15,6 +15,10 @@ import { StructureDirectiveComponent } from './structure-directive/structure-dir
 import { FormsComponent} from "./forms/forms.component";
 import { SecondFormComponent } from './second-form/second-form.component';
 import { ValidationComponent } from './validation/validation.component';
+import {provideAuth, getAuth} from "@angular/fire/auth";
+import {initializeApp,provideFirebaseApp} from "@angular/fire/app";
+import {environment} from "../environments/environment";
+import {getFirestore, provideFirestore} from "@angular/fire/firestore";
 
 
 @NgModule({
@@ -36,7 +40,16 @@ import { ValidationComponent } from './validation/validation.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    provideAuth(() => {
+      const auth = getAuth();
+      return auth;
+    }),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideFirestore(() => {
+      const firestore = getFirestore();
+      return firestore;
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

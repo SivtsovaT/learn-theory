@@ -1,6 +1,13 @@
 <span>{{title}} app is running!</span>
 {{version}}
 
+<ul>
+  <li *ngFor="let item of users$ | async">
+    {{ item['first_name'] }} {{ item['last_name'] }}
+  </li>
+</ul>
+
+
 
 <app-validation></app-validation>
 <br>
